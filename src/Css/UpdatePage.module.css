@@ -1,0 +1,132 @@
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 14px 15px 14px;
+    width: 900px;
+    height: 700px;
+  
+}
+
+.user label{
+ 
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-style: italic;
+  font-weight: 600;
+ 
+ 
+ 
+}
+.user input{
+    width: 600px;
+    border: 0;
+    height: 25px;
+    border-radius: 5px;
+    margin: 0;
+    outline: none;
+}
+.user{
+   
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border-bottom: 1px solid black;
+}
+
+.updatepassword input{
+    width: 600px;
+    border: 0;
+    height: 25px;
+    border-radius: 5px;
+    margin: 0;
+    outline: none;
+}
+.updatepassword input{
+    width: 600px;
+    border: 0;
+    height: 25px;
+    border-radius: 5px;
+    margin: 0;
+    outline: none;
+}
+.updatepassword{
+   
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border-bottom: 1px solid black;
+}
+.updateurl{
+    margin-top: 10px;
+}
+.updateurl label{
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-style: italic;
+    font-weight: 600;
+    
+}
+.updateurl input{
+    width:170px;
+    height: 25px;
+    padding: 5px;
+   
+}
+.updatecheck{
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-style: italic;
+    font-weight: 600;
+}
+.updatecheck{
+    margin-top: 10px;
+}
+
+.updatecheck span{
+     font-size: 20px;
+     font-weight: 500;
+     font-style: italic;
+}
+.updatecheck  input{
+    width: 20px;
+    height: 20px;
+  
+}
+.updatenotes{
+    margin-top: 10px; 
+}
+.updatenotes label{
+  font-size: 20px;
+  font-weight: 400;
+  font-style: italic;
+}
+.updatenotes textarea{
+    width: 300px;
+    height: 60px;
+}
+
+
+.updatebutton{
+    display: flex;
+    margin-left: 500px;
+    margin-top: 60px;
+}
+.updatebutton button{
+    width: 180px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 23px;
+    font-style: italic;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.updatebutton button:hover{
+    background-color:rgb(130, 103, 228);
+    transform: translateY(-7px);
+    color: white;
+}
